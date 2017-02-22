@@ -1,0 +1,15 @@
+{
+  "name": "payfast",
+  "version": "1.0.0",
+  "description": "gateway de pagamento",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pagamento",
+    "gateway"
+  ],
+  "author": "Tarcísio",
+  "license": "ISC"
+}
