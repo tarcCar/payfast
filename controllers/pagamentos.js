@@ -4,8 +4,19 @@ module.exports = function (app) {
         res.send('Ok.')
     });
     app.post('/pagamentos/pagamento', function (req, res) {
-        if(req.body)
-        {
+
+            req.assert("forma_de_pagamento","Forma de pagamento é obrigatorio").notEmpty();
+            req.assert("valor","valor é obrigatorio e deve ser um decimal ").notEmpty().isFloat();
+
+            var erros = req.validationErrors();
+
+            if(erros)
+            {
+                console.log('Erros de validacao encontrados');
+                res.status(400).send(erros);
+                return;
+            }
+
             console.log('processando uma requisicao de um pagamento.');
             let pagamento = req.body;
             pagamento.status = 'Criado';
@@ -13,12 +24,19 @@ module.exports = function (app) {
 
             var connection = app.persistencia.connectionFactory();
             var pagamentoDao = new app.persistencia.PagamentoDao(connection);
-            pagamentoDao.salva(pagamento,function(erro,resultado){
-                if(erro) console.log(erro);
-                
-                console.log('Pagamento criado.');
-                res.json(pagamento)
+
+            pagamentoDao.salva(pagamento, function (erro, resultado) {
+                if (erro) {
+                    res.status(500).send(erro);
+                } else {
+                    console.log('Pagamento criado.');
+                    res.location('pagamentos/pagamento/' + 
+                    resultado.insertId
+                    );
+                    res.status(201).json(pagamento);
+
+                }
             })
-        }
+        
     });
 }
