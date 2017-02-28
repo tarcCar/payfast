@@ -1,3 +1,2 @@
-{"level":"info","message":"Logando com winston marotamento.","timestamp":"2017-02-28T20:13:17.068Z"}
-{"level":"info","message":"Logando com winston sem ser maroto.","timestamp":"2017-02-28T20:13:17.070Z"}
-{"level":"info","message":"consultando pagamento: 13","timestamp":"2017-02-28T20:22:34.976Z"}
+{"level":"info","message":"consultando pagamento: 13","timestamp":"2017-02-28T20:49:47.734Z"}
+{"level":"info","message":"::1 - - [28/Feb/2017:20:49:47 +0000] \"GET /pagamentos/pagamento/13 HTTP/1.1\" 200 155\n","timestamp":"2017-02-28T20:49:47.764Z"}
