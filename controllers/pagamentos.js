@@ -3,6 +3,23 @@ module.exports = function (app) {
         console.log('Restornando a requisao pro cliente');
         res.send('Ok.')
     });
+    app.get('/pagamentos/pagamento/:id',function(req,res){
+        console.log('consultando pagamento');
+                let connection = app.persistencia.connectionFactory();
+        let pagamentoDao = new app.persistencia.PagamentoDao(connection);
+        let id = req.params.id;
+        pagamentoDao.buscaPorId(id,function(erro,resultado){
+            if(erro){
+                console.log(erro);
+                res.status(500).send(erro);
+                return;
+            }
+            console.log('Pagamento Encontrado:'+JSON.stringify(resultado));
+            res.send(resultado);
+            return;
+        });
+
+    });
     app.delete('/pagamentos/pagamento/:id', function (req, res) {
 
         let connection = app.persistencia.connectionFactory();
