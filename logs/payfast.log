@@ -1,2 +1,18 @@
 {"level":"info","message":"consultando pagamento: 13","timestamp":"2017-02-28T20:49:47.734Z"}
 {"level":"info","message":"::1 - - [28/Feb/2017:20:49:47 +0000] \"GET /pagamentos/pagamento/13 HTTP/1.1\" 200 155\n","timestamp":"2017-02-28T20:49:47.764Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:00:23:28 +0000] \"GET / HTTP/1.1\" 404 13\n","timestamp":"2017-03-01T00:23:28.763Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:00:23:28 +0000] \"GET /apple-touch-icon-precomposed.png HTTP/1.1\" 404 45\n","timestamp":"2017-03-01T00:23:28.834Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:00:23:28 +0000] \"GET /apple-touch-icon.png HTTP/1.1\" 404 33\n","timestamp":"2017-03-01T00:23:28.868Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:00:23:28 +0000] \"GET /favicon.ico HTTP/1.1\" 404 24\n","timestamp":"2017-03-01T00:23:28.871Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:00:23:28 +0000] \"GET /apple-touch-icon-precomposed.png HTTP/1.1\" 404 45\n","timestamp":"2017-03-01T00:23:28.877Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:00:23:28 +0000] \"GET /apple-touch-icon.png HTTP/1.1\" 404 33\n","timestamp":"2017-03-01T00:23:28.883Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:00:23:28 +0000] \"GET /favicon.ico HTTP/1.1\" 404 24\n","timestamp":"2017-03-01T00:23:28.895Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:00:23:28 +0000] \"GET / HTTP/1.1\" 404 13\n","timestamp":"2017-03-01T00:23:28.904Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:00:23:28 +0000] \"GET /apple-touch-icon-precomposed.png HTTP/1.1\" 404 45\n","timestamp":"2017-03-01T00:23:28.913Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:00:23:28 +0000] \"GET /apple-touch-icon.png HTTP/1.1\" 404 33\n","timestamp":"2017-03-01T00:23:28.917Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:00:23:28 +0000] \"GET /favicon.ico HTTP/1.1\" 404 24\n","timestamp":"2017-03-01T00:23:28.920Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:00:23:28 +0000] \"GET /apple-touch-icon-precomposed.png HTTP/1.1\" 404 45\n","timestamp":"2017-03-01T00:23:28.923Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:00:23:28 +0000] \"GET /apple-touch-icon.png HTTP/1.1\" 404 33\n","timestamp":"2017-03-01T00:23:28.926Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:00:23:28 +0000] \"GET /favicon.ico HTTP/1.1\" 404 24\n","timestamp":"2017-03-01T00:23:28.930Z"}
+{"level":"info","message":"consultando pagamento: 13","timestamp":"2017-03-01T01:05:22.205Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:01:05:22 +0000] \"GET /pagamentos/pagamento/13 HTTP/1.1\" 200 155\n","timestamp":"2017-03-01T01:05:22.234Z"}
