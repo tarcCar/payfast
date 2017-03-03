@@ -1,13 +1,39 @@
 var logger = require('../servicos/logger');
 module.exports = function (app) {
     app.get('/pagamentos', function (req, res) {
-        console.log('Restornando a requisao pro cliente');
-        res.send('Ok.')
+        let memcachedClient = app.servicos.memcachedClient();
+        memcachedClient.get('todosPagamentos', function (erro, retorno) {
+            if (erro || !retorno) {
+                console.log('MISS - CHAVE NÃO ENCONTRDA');
+                let connection = app.persistencia.connectionFactory();
+                let pagamentoDao = new app.persistencia.PagamentoDao(connection);
+
+                pagamentoDao.listarTodos(function (erro, resultado) {
+                    if (erro) {
+                        console.log(erro)
+                        res.status(500).send(erro);
+                        return;
+                    } else {
+                        console.log('Pagamentos Encontrados:' + JSON.stringify(resultado));
+                        memcachedClient.set('todosPagamentos', resultado, 6000, function (erro) {
+                            console.log('nova chave adiciona ao cache: todosPagamentos');
+                        });
+
+                        res.send(resultado);
+                        return;
+                    }
+                })
+            } else {
+                console.log('Pagamentos Encontrados:' + JSON.stringify(resultado));
+                res.send(retorno);
+                return;
+            }
+        })
     });
     app.get('/pagamentos/pagamento/:id', function (req, res) {
         let id = req.params.id;
         console.log('consultando pagamento');
-        logger.info('consultando pagamento: '+id);
+        logger.info('consultando pagamento: ' + id);
         let memcachedClient = app.servicos.memcachedClient();
         memcachedClient.get('pagamento-' + id, function (erro, retorno) {
             if (erro || !retorno) {

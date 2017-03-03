@@ -15,6 +15,9 @@ PagamentoDao.prototype.lista = function (callback) {
 PagamentoDao.prototype.buscaPorId = function (Id, callback) {
     this._connection.query('SELECT * FROM pagamento WHERE ID = ?', [Id], callback)
 }
+PagamentoDao.prototype.listarTodos = function (callback) {
+    this._connection.query('SELECT * FROM pagamento ', callback)
+}
 
 module.exports = function(){
     return PagamentoDao;

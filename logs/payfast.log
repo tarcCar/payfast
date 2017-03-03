@@ -16,3 +16,50 @@
 {"level":"info","message":"::1 - - [01/Mar/2017:00:23:28 +0000] \"GET /favicon.ico HTTP/1.1\" 404 24\n","timestamp":"2017-03-01T00:23:28.930Z"}
 {"level":"info","message":"consultando pagamento: 13","timestamp":"2017-03-01T01:05:22.205Z"}
 {"level":"info","message":"::1 - - [01/Mar/2017:01:05:22 +0000] \"GET /pagamentos/pagamento/13 HTTP/1.1\" 200 155\n","timestamp":"2017-03-01T01:05:22.234Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:02:02:47 +0000] \"GET / HTTP/1.1\" 404 13\n","timestamp":"2017-03-01T02:02:47.780Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:02:02:47 +0000] \"GET /apple-touch-icon-precomposed.png HTTP/1.1\" 404 45\n","timestamp":"2017-03-01T02:02:47.822Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:02:02:47 +0000] \"GET /apple-touch-icon.png HTTP/1.1\" 404 33\n","timestamp":"2017-03-01T02:02:47.827Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:02:02:47 +0000] \"GET /favicon.ico HTTP/1.1\" 404 24\n","timestamp":"2017-03-01T02:02:47.837Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:02:02:47 +0000] \"GET /apple-touch-icon-precomposed.png HTTP/1.1\" 404 45\n","timestamp":"2017-03-01T02:02:47.839Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:02:02:47 +0000] \"GET /apple-touch-icon.png HTTP/1.1\" 404 33\n","timestamp":"2017-03-01T02:02:47.841Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:02:02:47 +0000] \"GET /favicon.ico HTTP/1.1\" 404 24\n","timestamp":"2017-03-01T02:02:47.844Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:02:02:47 +0000] \"GET / HTTP/1.1\" 404 13\n","timestamp":"2017-03-01T02:02:47.851Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:02:02:47 +0000] \"GET /apple-touch-icon-precomposed.png HTTP/1.1\" 404 45\n","timestamp":"2017-03-01T02:02:47.856Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:02:02:47 +0000] \"GET /apple-touch-icon.png HTTP/1.1\" 404 33\n","timestamp":"2017-03-01T02:02:47.859Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:02:02:47 +0000] \"GET /favicon.ico HTTP/1.1\" 404 24\n","timestamp":"2017-03-01T02:02:47.862Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:02:02:47 +0000] \"GET /apple-touch-icon-precomposed.png HTTP/1.1\" 404 45\n","timestamp":"2017-03-01T02:02:47.865Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:02:02:47 +0000] \"GET /apple-touch-icon.png HTTP/1.1\" 404 33\n","timestamp":"2017-03-01T02:02:47.867Z"}
+{"level":"info","message":"::1 - - [01/Mar/2017:02:02:47 +0000] \"GET /favicon.ico HTTP/1.1\" 404 24\n","timestamp":"2017-03-01T02:02:47.870Z"}
+{"level":"info","message":"consultando pagamento: 13","timestamp":"2017-03-03T13:26:24.068Z"}
+{"level":"info","message":"::1 - - [03/Mar/2017:13:26:36 +0000] \"GET /pagamentos/pagamento/13 HTTP/1.1\" - -\n","timestamp":"2017-03-03T13:26:36.586Z"}
+{"level":"info","message":"consultando pagamento: 13","timestamp":"2017-03-03T13:26:40.243Z"}
+{"level":"info","message":"::1 - - [03/Mar/2017:13:27:20 +0000] \"GET /pagamentos/pagamento/13 HTTP/1.1\" 200 157\n","timestamp":"2017-03-03T13:27:20.634Z"}
+{"level":"info","message":"consultando pagamento: 13","timestamp":"2017-03-03T13:33:54.286Z"}
+{"level":"info","message":"::1 - - [03/Mar/2017:13:33:54 +0000] \"GET /pagamentos/pagamento/13 HTTP/1.1\" 200 157\n","timestamp":"2017-03-03T13:33:54.310Z"}
+{"level":"info","message":"consultando pagamento: 13","timestamp":"2017-03-03T13:45:28.164Z"}
+{"level":"info","message":"::1 - - [03/Mar/2017:13:45:28 +0000] \"GET /pagamentos/pagamento/13 HTTP/1.1\" 200 157\n","timestamp":"2017-03-03T13:45:28.218Z"}
+{"level":"info","message":"consultando pagamento: 13","timestamp":"2017-03-03T14:12:40.244Z"}
+{"level":"info","message":"::1 - - [03/Mar/2017:14:12:40 +0000] \"GET /pagamentos/pagamento/13 HTTP/1.1\" 200 157\n","timestamp":"2017-03-03T14:12:40.701Z"}
+{"level":"info","message":"consultando pagamento: 13","timestamp":"2017-03-03T14:18:26.679Z"}
+{"level":"info","message":"::1 - - [03/Mar/2017:14:18:26 +0000] \"GET /pagamentos/pagamento/13 HTTP/1.1\" 200 157\n","timestamp":"2017-03-03T14:18:26.983Z"}
+{"level":"info","message":"consultando pagamento: 13","timestamp":"2017-03-03T14:18:32.891Z"}
+{"level":"info","message":"::1 - - [03/Mar/2017:14:18:33 +0000] \"GET /pagamentos/pagamento/13 HTTP/1.1\" 304 -\n","timestamp":"2017-03-03T14:18:33.308Z"}
+{"level":"info","message":"consultando pagamento: 13","timestamp":"2017-03-03T14:19:28.567Z"}
+{"level":"info","message":"::1 - - [03/Mar/2017:14:19:28 +0000] \"GET /pagamentos/pagamento/13 HTTP/1.1\" 304 -\n","timestamp":"2017-03-03T14:19:28.640Z"}
+{"level":"info","message":"consultando pagamento: 13","timestamp":"2017-03-03T14:26:27.475Z"}
+{"level":"info","message":"::1 - - [03/Mar/2017:14:26:28 +0000] \"GET /pagamentos/pagamento/13 HTTP/1.1\" 304 -\n","timestamp":"2017-03-03T14:26:28.236Z"}
+{"level":"info","message":"consultando pagamento: 13","timestamp":"2017-03-03T14:26:31.631Z"}
+{"level":"info","message":"::1 - - [03/Mar/2017:14:26:31 +0000] \"GET /pagamentos/pagamento/13 HTTP/1.1\" 304 -\n","timestamp":"2017-03-03T14:26:31.806Z"}
+{"level":"info","message":"consultando pagamento: 13","timestamp":"2017-03-03T14:27:05.381Z"}
+{"level":"info","message":"::1 - - [03/Mar/2017:14:27:05 +0000] \"GET /pagamentos/pagamento/13 HTTP/1.1\" 304 -\n","timestamp":"2017-03-03T14:27:05.432Z"}
+{"level":"info","message":"consultando pagamento: 13","timestamp":"2017-03-03T14:28:31.904Z"}
+{"level":"info","message":"::1 - - [03/Mar/2017:14:28:31 +0000] \"GET /pagamentos/pagamento/13 HTTP/1.1\" 304 -\n","timestamp":"2017-03-03T14:28:31.930Z"}
+{"level":"info","message":"consultando pagamento: 13","timestamp":"2017-03-03T14:29:17.911Z"}
+{"level":"info","message":"::1 - - [03/Mar/2017:14:29:17 +0000] \"GET /pagamentos/pagamento/13 HTTP/1.1\" 304 -\n","timestamp":"2017-03-03T14:29:17.927Z"}
+{"level":"info","message":"consultando pagamento: 13","timestamp":"2017-03-03T14:30:58.834Z"}
+{"level":"info","message":"::1 - - [03/Mar/2017:14:30:58 +0000] \"GET /pagamentos/pagamento/13 HTTP/1.1\" 304 -\n","timestamp":"2017-03-03T14:30:58.858Z"}
+{"level":"info","message":"consultando pagamento: 13","timestamp":"2017-03-03T14:31:14.545Z"}
+{"level":"info","message":"::1 - - [03/Mar/2017:14:31:14 +0000] \"GET /pagamentos/pagamento/13 HTTP/1.1\" 304 -\n","timestamp":"2017-03-03T14:31:14.596Z"}
+{"level":"info","message":"consultando pagamento: 13","timestamp":"2017-03-03T14:31:58.599Z"}
+{"level":"info","message":"::1 - - [03/Mar/2017:14:31:58 +0000] \"GET /pagamentos/pagamento/13 HTTP/1.1\" 304 -\n","timestamp":"2017-03-03T14:31:58.615Z"}
+{"level":"info","message":"::1 - - [03/Mar/2017:15:46:37 +0000] \"GET /pagamentos HTTP/1.1\" 200 2013\n","timestamp":"2017-03-03T15:46:37.821Z"}
