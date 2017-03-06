@@ -24,7 +24,7 @@ module.exports = function (app) {
                     }
                 })
             } else {
-                console.log('Pagamentos Encontrados:' + JSON.stringify(resultado));
+                console.log('Pagamentos Encontrados:' + JSON.stringify(retorno));
                 res.send(retorno);
                 return;
             }

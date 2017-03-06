@@ -63,3 +63,21 @@
 {"level":"info","message":"consultando pagamento: 13","timestamp":"2017-03-03T14:31:58.599Z"}
 {"level":"info","message":"::1 - - [03/Mar/2017:14:31:58 +0000] \"GET /pagamentos/pagamento/13 HTTP/1.1\" 304 -\n","timestamp":"2017-03-03T14:31:58.615Z"}
 {"level":"info","message":"::1 - - [03/Mar/2017:15:46:37 +0000] \"GET /pagamentos HTTP/1.1\" 200 2013\n","timestamp":"2017-03-03T15:46:37.821Z"}
+{"level":"info","message":"::1 - - [04/Mar/2017:00:27:16 +0000] \"GET /pagamentos HTTP/1.1\" 200 2013\n","timestamp":"2017-03-04T00:27:16.939Z"}
+{"level":"info","message":"::1 - - [04/Mar/2017:00:31:32 +0000] \"GET /pagamentos HTTP/1.1\" 200 2013\n","timestamp":"2017-03-04T00:31:32.872Z"}
+{"level":"info","message":"::1 - - [04/Mar/2017:00:31:42 +0000] \"GET /pagamentos HTTP/1.1\" 304 -\n","timestamp":"2017-03-04T00:31:42.426Z"}
+{"level":"info","message":"::1 - - [04/Mar/2017:00:32:37 +0000] \"GET /pagamentos HTTP/1.1\" 304 -\n","timestamp":"2017-03-04T00:32:37.330Z"}
+{"level":"info","message":"::1 - - [04/Mar/2017:00:33:11 +0000] \"GET /pagamentos HTTP/1.1\" 304 -\n","timestamp":"2017-03-04T00:33:11.355Z"}
+{"level":"info","message":"::1 - - [04/Mar/2017:00:33:13 +0000] \"GET /pagamentos HTTP/1.1\" 304 -\n","timestamp":"2017-03-04T00:33:13.925Z"}
+{"level":"info","message":"::1 - - [04/Mar/2017:00:33:17 +0000] \"GET /pagamentos HTTP/1.1\" 304 -\n","timestamp":"2017-03-04T00:33:17.530Z"}
+{"level":"info","message":"::1 - - [04/Mar/2017:00:40:09 +0000] \"GET /pagamentos HTTP/1.1\" 304 -\n","timestamp":"2017-03-04T00:40:09.177Z"}
+{"level":"info","message":"::1 - - [04/Mar/2017:00:40:15 +0000] \"GET /pagamentos HTTP/1.1\" 304 -\n","timestamp":"2017-03-04T00:40:15.081Z"}
+{"level":"info","message":"::1 - - [04/Mar/2017:00:40:18 +0000] \"GET /pagamentos HTTP/1.1\" 304 -\n","timestamp":"2017-03-04T00:40:18.258Z"}
+{"level":"info","message":"consultando pagamento: 13","timestamp":"2017-03-04T00:42:45.330Z"}
+{"level":"info","message":"::1 - - [04/Mar/2017:00:42:45 +0000] \"GET /pagamentos/pagamento/13 HTTP/1.1\" 200 157\n","timestamp":"2017-03-04T00:42:45.443Z"}
+{"level":"info","message":"::1 - - [04/Mar/2017:00:43:18 +0000] \"GET /pagamentos HTTP/1.1\" 304 -\n","timestamp":"2017-03-04T00:43:18.497Z"}
+{"level":"info","message":"::1 - - [04/Mar/2017:00:45:11 +0000] \"GET /pagamentos HTTP/1.1\" 304 -\n","timestamp":"2017-03-04T00:45:11.326Z"}
+{"level":"info","message":"::1 - - [04/Mar/2017:00:49:21 +0000] \"GET /pagamentos HTTP/1.1\" 304 -\n","timestamp":"2017-03-04T00:49:21.860Z"}
+{"level":"info","message":"::1 - - [04/Mar/2017:00:53:26 +0000] \"GET /pagamentos HTTP/1.1\" 304 -\n","timestamp":"2017-03-04T00:53:26.798Z"}
+{"level":"info","message":"::1 - - [04/Mar/2017:00:59:58 +0000] \"GET /pagamentos HTTP/1.1\" 304 -\n","timestamp":"2017-03-04T00:59:58.559Z"}
+{"level":"info","message":"::1 - - [04/Mar/2017:01:01:34 +0000] \"GET /pagamentos HTTP/1.1\" 304 -\n","timestamp":"2017-03-04T01:01:34.938Z"}
